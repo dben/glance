@@ -1,0 +1,4 @@
+requests~=2.31.0
+mintapi~=2.14
+python-dotenv~=1.0.0
+firebase_admin~=6.2.0
