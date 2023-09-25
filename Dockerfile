@@ -25,4 +25,4 @@ RUN chmod 0644 /etc/cron.d/glance-cron && \
 
 COPY *.py /app/
 
-CMD ["cron", "-f"]
+CMD python3 /app/main.py; cron -f
