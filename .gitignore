@@ -1,3 +1,5 @@
+.firebase
+.firebaserc
 venv
 .env
 .DS_Store
